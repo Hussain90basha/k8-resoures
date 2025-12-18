@@ -22,6 +22,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:trixie-perl
+        image: nginx:latest
 
      
