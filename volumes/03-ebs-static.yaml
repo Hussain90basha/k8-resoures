@@ -56,7 +56,7 @@ metadata:
 spec:
   type: LoadBalancer
   selector:
-    purpose: load-balancer
+    purpose: ebs-static
   ports:
     - protocol: TCP
       port: 80 # service port 
