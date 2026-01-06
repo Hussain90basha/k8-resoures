@@ -7,7 +7,6 @@ metadata:
     purpose: dp-demo
     project: roboshop
 spec:
-  type: LoadBalancer
   replicas: 4
   selector:
   # these labels are used to select pods
@@ -31,6 +30,7 @@ kind: Service
 metadata:
   name: nginx
 spec:
+  type: LoadBalancer
   selector:
     project: roboshop
     purpose: headless-svc-demo
